@@ -17,7 +17,7 @@ public class MedicoController {
 
     private MedicoService medicoService;
 
-    @GetMapping("medicos")
+    @GetMapping("")
     public List<Medico> getAllMedicos() {
         return medicoService.findAll();
     }
